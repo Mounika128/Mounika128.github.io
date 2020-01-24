@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media only screen and (min-width: 755px){
+    .image-responsive{
+        width: 20vw;
+        height: 20vw;
+    }
+}
+
+
+@media only screen and (max-width: 755px){
+    .image-responsive{
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 40vw;
+        height: 20vw;
+    }
+}
+
+
+
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+}
+a.btn-first{
+    background-color:black;
+    color: gainsboro;
+}
+a.btn:hover{
+    background:red;
+    border: none;
+    color:#fff;
+    box-shadow:  5px 5px 10px #999;
+    transition: 0.3s;
+}
+.banner-info, .banner-image{
+    margin: 30px 0;
+}
+
+.image-responsive{
+    position: absolute;
+    
+}
+.container{
+    font-family:cursive;
+    padding-top: 10px;
+}
+.quote{
+    font-size:30px;
+    color: deeppink;
+    font-family: fantasy;
+}
+.logo{
+    height: 50px;
+    
+}
+.small-text{
+    font-size: 50px;
+    color:blue;
+    font-family:serif;
+}
+.big-text{
+    font-size: 40px;
+    margin:20px 0;
+    color:purple;
+    
+    font-family: serif;
+}
+.icon-bar{
+    background: blue;
+}
+body{
+background-image:url(grey.jpg);
+    background-size: cover;
+}
+.navbar-header{
+    color: white;
+}
+
